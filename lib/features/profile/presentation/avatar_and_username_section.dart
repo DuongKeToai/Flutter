@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_learning/features/profile/presentation/logic_holders/account_info_bloc.dart';
+import 'package:flutter_learning/l10n/generated/app_localizations.dart';
 
 class AvatarAndUsernameSection extends StatelessWidget {
   const AvatarAndUsernameSection({
@@ -69,7 +70,7 @@ class AvatarAndUsernameSection extends StatelessWidget {
           },
           builder: (context, value) {
             return Text(
-              value ?? "Người dùng mới",
+              value ?? AppLocalizations.of(context)!.user,
               style: const TextStyle(color: Colors.white, fontSize: 26),
             );
           },

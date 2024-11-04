@@ -38,4 +38,16 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get language => 'Language';
+
+  @override
+  String get print_fullname => 'Enter your name';
+
+  @override
+  String get print_phone => 'Enter number phone';
+
+  @override
+  String get print_email => 'Enter Email';
+
+  @override
+  String get user => 'New User';
 }

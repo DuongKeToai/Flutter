@@ -10,32 +10,44 @@ class AppLocalizationsEs extends AppLocalizations {
   String get helloWorld => '¡Hola Mundo!';
 
   @override
-  String get helloVTI => 'Hola VTI, Paju Dora?';
+  String get helloVTI => 'Hola VTI, ¿cómo te va?';
 
   @override
-  String get information => 'Information';
+  String get information => 'Información';
 
   @override
-  String get full_name => 'FullName';
+  String get full_name => 'Nombre completo';
 
   @override
-  String get date_of_birth => 'DateOfBirth';
+  String get date_of_birth => 'Fecha de nacimiento';
 
   @override
-  String get phone_number => 'PhoneNumber';
+  String get phone_number => 'Número de teléfono';
 
   @override
-  String get email => 'Email';
+  String get email => 'Correo electrónico';
 
   @override
-  String get gender => 'Gender';
+  String get gender => 'Género';
 
   @override
-  String get submit => 'Submit';
+  String get submit => 'Entregar';
 
   @override
-  String get setting => 'Setting';
+  String get setting => 'Configuración';
 
   @override
-  String get language => 'Language';
+  String get language => 'Idioma';
+
+  @override
+  String get print_fullname => 'Introduzca nombre y apellido';
+
+  @override
+  String get print_phone => 'Introduce el número de teléfono';
+
+  @override
+  String get print_email => 'Ingrese el correo electrónico';
+
+  @override
+  String get user => 'Nuevo usuario';
 }

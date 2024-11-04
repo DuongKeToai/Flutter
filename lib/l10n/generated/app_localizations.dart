@@ -162,6 +162,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Language'**
   String get language;
+
+  /// No description provided for @print_fullname.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your name'**
+  String get print_fullname;
+
+  /// No description provided for @print_phone.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter number phone'**
+  String get print_phone;
+
+  /// No description provided for @print_email.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter Email'**
+  String get print_email;
+
+  /// No description provided for @user.
+  ///
+  /// In en, this message translates to:
+  /// **'New User'**
+  String get user;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

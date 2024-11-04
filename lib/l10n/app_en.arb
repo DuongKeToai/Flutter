@@ -10,5 +10,9 @@
     "gender": "Gender",
     "submit":"Submit",
     "setting": "Setting",
-    "language": "Language"
+    "language": "Language",
+    "print_fullname":"Enter your name",
+    "print_phone": "Enter number phone",
+    "print_email": "Enter Email",
+    "user": "New User"
 }

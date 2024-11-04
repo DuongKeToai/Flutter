@@ -38,4 +38,16 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get language => 'Ngôn ngữ';
+
+  @override
+  String get print_fullname => 'Nhập Họ và Tên';
+
+  @override
+  String get print_phone => 'Nhập Số Điện Thoại';
+
+  @override
+  String get print_email => 'Nhập Email';
+
+  @override
+  String get user => 'Người Dùng Mới';
 }

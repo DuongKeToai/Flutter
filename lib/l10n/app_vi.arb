@@ -8,7 +8,11 @@
     "phone_number": "Số Điện Thoại",
     "email": "Email",
     "gender": "Giới Tính",
-    "submit":"Lưu",
+    "submit": "Lưu",
     "setting": "Cài Đặt",
-    "language": "Ngôn ngữ"
+    "language": "Ngôn ngữ",
+    "print_fullname": "Nhập Họ và Tên",
+    "print_phone": "Nhập Số Điện Thoại",
+    "print_email": "Nhập Email",
+    "user": "Người Dùng Mới"
 }

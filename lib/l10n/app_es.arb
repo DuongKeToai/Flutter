@@ -1,14 +1,18 @@
 {
     "@@locale": "es",
     "helloWorld": "¡Hola Mundo!",
-    "helloVTI": "Hola VTI, Paju Dora?",
-    "information": "Information",
-    "full_name": "FullName",
-    "date_of_birth": "DateOfBirth",
-    "phone_number": "PhoneNumber",
-    "email": "Email",
-    "gender": "Gender",
-    "submit":"Submit",
-    "setting": "Setting",
-    "language": "Language"
+    "helloVTI": "Hola VTI, ¿cómo te va?",
+    "information": "Información",
+    "full_name": "Nombre completo",
+    "date_of_birth": "Fecha de nacimiento",
+    "phone_number": "Número de teléfono",
+    "email": "Correo electrónico",
+    "gender": "Género",
+    "submit":"Entregar",
+    "setting": "Configuración",
+    "language": "Idioma",
+    "print_fullname":"Introduzca nombre y apellido",
+    "print_phone": "Introduce el número de teléfono",
+    "print_email": "Ingrese el correo electrónico",
+    "user": "Nuevo usuario"
 }

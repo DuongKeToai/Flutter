@@ -42,7 +42,7 @@ class _InformationContentState extends State<InformationContent> {
                     BlocProvider.of<AccountInfoBloc>(context)
                         .add(UpdateFullname(newName: newValue));
                   },
-                  hintText: "Nhập họ và tên",
+                  hintText: AppLocalizations.of(context)!.print_fullname,
                 );
               },
             )),
@@ -100,7 +100,7 @@ class _InformationContentState extends State<InformationContent> {
                     BlocProvider.of<AccountInfoBloc>(context)
                         .add(UpdatePhoneNum(newPhoneNum: newValue));
                   },
-                  hintText: "Nhập số điện thoại",
+                  hintText: AppLocalizations.of(context)!.print_phone,
                 );
               },
             )),
@@ -125,7 +125,7 @@ class _InformationContentState extends State<InformationContent> {
                     BlocProvider.of<AccountInfoBloc>(context)
                         .add(UpdateEmail(newEmail: newValue));
                   },
-                  hintText: "Nhập email",
+                  hintText: AppLocalizations.of(context)!.print_email,
                 );
               },
             )),
